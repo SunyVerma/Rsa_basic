@@ -16,8 +16,8 @@ int gcd(int n1, int n2) {
         return gcd(n2,n1%n2);
     }
 }
-long long pow_expo(long long x, long long n, long long M) {
-    long long res = 1;
+long long int pow_expo(long long int x, long long int n, long long int M) {
+    long long int res = 1;
     for(int i = 1; i <= n; i++) {
         res = (res * x) % M;
     }
