@@ -24,7 +24,7 @@ long long pow_expo(long long x, long long n, long long M) {
     return res;
 }
 int main() {
-    printf("Hello ^[`~`]\n");
+    printf("Welcome ^[`~`]\n");
     printf("Enter two prime numbers:-\n");
     int p0,p1;
     scanf("%d %d",&p0,&p1);
